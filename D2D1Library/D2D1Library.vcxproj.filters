@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{6771f611-9560-4fdb-8799-57d5cb9a6542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wnd">
+      <UniqueIdentifier>{50458164-2c41-4c0d-a7d9-1f8e46408403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D2D1">
+      <UniqueIdentifier>{ab5794b2-2bb9-47b5-acc3-6e5066d44c5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CorePch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Wnd.cpp">
+      <Filter>Wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="D2D1Core.cpp">
+      <Filter>D2D1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>D2D1</Filter>
+    </ClCompile>
+    <ClCompile Include="D2D1Wnd.cpp">
+      <Filter>Wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>D2D1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>D2D1</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceObj.cpp">
+      <Filter>D2D1</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>D2D1</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>D2D1</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>D2D1</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>D2D1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CorePch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Wnd.h">
+      <Filter>Wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="D2D1Core.h">
+      <Filter>D2D1</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>D2D1</Filter>
+    </ClInclude>
+    <ClInclude Include="D2D1Wnd.h">
+      <Filter>Wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>D2D1</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>D2D1</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceObj.h">
+      <Filter>D2D1</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>D2D1</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>D2D1</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>D2D1</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>D2D1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
